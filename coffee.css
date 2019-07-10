@@ -1,16 +1,31 @@
 body
 {
-  background-color:plum
+  background-color:	#5F9EA0;
+
 }
 h1{
-  color:slateblue
+  color:#483D8B;
 }
 h2{
-  color:slateblue
+  color:#483D8B;
 }
-h3{
-  color:slateblue
-}
-p{
 
+h3{
+  color:#483D8B;
+}
+
+button {
+  background-color: #B0C4DE;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover { /*This will change color when you hover*/
+  background-color:#E0FFFF; /* Green */
+  color: white;
 }
