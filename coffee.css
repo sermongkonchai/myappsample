@@ -1,8 +1,4 @@
-body
-{
-  background-color:	#5F9EA0;
 
-}
 h1{
   color:#483D8B;
 }
@@ -14,7 +10,7 @@ h3{
   color:#483D8B;
 }
 
-button {
+button{
   background-color: #B0C4DE;
   border: none;
   border-radius: 8px;
@@ -28,4 +24,39 @@ button {
 button:hover { /*This will change color when you hover*/
   background-color:#E0FFFF; /* Green */
   color: white;
+}
+
+#donatehere {
+  background-color: #B0C4DE;
+  border: none;
+  border-radius: 8px;
+  color: blue;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.layer{
+    padding: 50px;
+    background-color: rgba(157, 300, 100, 0.658);
+}
+#donatehere:hover { /*This will change color when you hover*/
+  background-color:#E0FFFF; /* Green */
+}
+#howmanytodonate{
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 16px;
+}
+#OrginalBody
+{
+  background-color:	#5F9EA0;
+}
+#GiveUsMoneyBody{
+  background-image: url("images/86851159-cartoon-illustration-of-dollar-currency-symbol-vector-pattern-bank-finance-business-seamless-money-b.jpg");
+}
+#contactBody{
+  background-color: peachpuff;
 }
